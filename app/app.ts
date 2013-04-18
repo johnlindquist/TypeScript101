@@ -8,4 +8,4 @@ function logMessage(message:string){
 	console.log(message);
 }
 
-logMessage(new Supermarket());
+logMessage("hello");

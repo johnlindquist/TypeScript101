@@ -1,5 +1,5 @@
 function logMessage(message) {
     console.log(message);
 }
-logMessage(new Supermarket());
+logMessage("hello");
 //@ sourceMappingURL=app.js.map
