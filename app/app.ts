@@ -1,6 +1,8 @@
 /**
+ *  main site - http://www.typescriptlang.org/
  *
+ *  source + examples - http://typescript.codeplex.com/
  *
- *  https://github.com/borisyankov/DefinitelyTyped
+ *  d.ts for libs - https://github.com/borisyankov/DefinitelyTyped
  *
  */
