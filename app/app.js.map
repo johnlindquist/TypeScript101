@@ -1,1 +1,1 @@
-{"version":3,"file":"app.js","sources":["app.ts"],"names":[],"mappings":""}
+{"version":3,"file":"app.js","sources":["app.ts"],"names":["logMessage"],"mappings":"AAAA,SAAS,UAAU,CAAC,OAAO;IAC1BA,OAAOA,CAACA,GAAGA,CAACA,OAAOA,CAACA;AACrBA,CAACA;AAED,UAAU,CAAC,KAAK,CAAC"}
