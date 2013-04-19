@@ -1,14 +1,27 @@
 /**
- *  Classes follow the ES6 proposed spec
+ *  Interfaces
  */
 
-class Car{
-	constructor(public type:string, public color:string){}
-
-	drive(direction:string){
-		console.log("Driving a " + this.color + " " + this.type + direction);
-	}
+interface Drivable{
+	type:string;
+	drive: (direction:string) => number;
 }
 
-var car = new Car("beetle", "red");
-car.drive("north");
+class Car implements Drivable{
+	constructor(public type:string, public color:string){}
+
+	drive = function(direction:string):number{
+		console.log("Driving a " + this.color + " " + this.type + direction);
+		return 10;
+	};
+}
+
+var car:Drivable = new Car("beetle", "red");
+
+var vehicles:Drivable[] = new Drivable[];
+vehicles.push(car);
+
+for (var i = 0; i < vehicles.length; i++) {
+	var vehicle:Drivable = vehicles[i];
+	vehicle.drive("north");
+}
