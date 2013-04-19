@@ -1,11 +1,14 @@
 /**
- *  If it's valid JS, it will compile
- *  even if there's an "error"
- *
+ *  Classes follow the ES6 proposed spec
  */
 
-function logMessage(message:string){
-	console.log(message);
+class Car{
+	constructor(public type:string, public color:string){}
+
+	drive(direction:string){
+		console.log("Driving a " + this.color + " " + this.type + direction);
+	}
 }
 
-logMessage("hello");
+var car = new Car("beetle", "red");
+car.drive("north");

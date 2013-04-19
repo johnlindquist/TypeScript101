@@ -4,7 +4,9 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/test/appSpec.js" />
         <item url="file://$PROJECT_DIR$/app/app.js" />
-        <item url="file://$PROJECT_DIR$/app/other.js" />
+        <item url="file://$PROJECT_DIR$/app/Guitar.js" />
+        <item url="file://$PROJECT_DIR$/app/com/johnlindquist.js" />
+        <item url="file://$PROJECT_DIR$/app/things.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -12,9 +14,14 @@
       <root url="file://$PROJECT_DIR$/app.js" />
       <root url="file://$PROJECT_DIR$/other.js" />
       <root url="file://$PROJECT_DIR$/app.js" />
+      <root url="file://$PROJECT_DIR$/app/other.js" />
+      <root url="file://$PROJECT_DIR$/app/other.js" />
+      <root url="file://$PROJECT_DIR$/app/com/johnlindquist.js" />
       <root url="file://$PROJECT_DIR$/test/appSpec.js" />
       <root url="file://$PROJECT_DIR$/app/app.js" />
-      <root url="file://$PROJECT_DIR$/app/other.js" />
+      <root url="file://$PROJECT_DIR$/app/Guitar.js" />
+      <root url="file://$PROJECT_DIR$/app/com/johnlindquist.js" />
+      <root url="file://$PROJECT_DIR$/app/things.js" />
     </CLASSES>
     <SOURCES />
   </library>
