@@ -1,8 +1,7 @@
-describe("func", function () {
+describe("inheritance", function () {
     it("should work", function () {
-        expect(doSomething(function (a, b) {
-            return a + b;
-        }, 1, 2)).toBe(3);
+        expect(new Wally().race()).toBe("jog");
+        expect(new Flash().race()).toBe("run");
     });
 });
 //@ sourceMappingURL=appSpec.js.map

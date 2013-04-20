@@ -1,10 +1,9 @@
 /// <reference path="../app/app.ts"/>
 /// <reference path="../jasmine/jasmine.d.ts"/>
 
-describe("func", ()=> {
+describe("inheritance", ()=> {
 	it("should work", ()=> {
-		expect(doSomething((a, b)=> {
-			return a + b
-		}, 1, 2)).toBe(3);
+		expect(new Wally().race()).toBe("jog");
+		expect(new Flash().race()).toBe("run");
 	})
 });
