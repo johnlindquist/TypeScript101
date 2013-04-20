@@ -1,10 +1,16 @@
+/*
+ * https://typescript.codeplex.com/workitem/47
+ * ^^^I hope they change this
+ */
+
 /// <reference path="one/two/three/four/things.ts"/>
 import t = module("one/two/three/four/things")
 
-class Sweeper{
-	constructor(public broom:t.stuff.Broom){}
+class Sweeper {
+	constructor(public broom:t.stuff.Broom) {
+	}
 
-	doJob(){
+	doJob() {
 		this.broom.makeNoise();
 	}
 }
