@@ -1,24 +1,13 @@
-var __extends = this.__extends || function (d, b) {
-    function __() { this.constructor = d; }
-    __.prototype = b.prototype;
-    d.prototype = new __();
-};
-var Wally = (function () {
-    function Wally() { }
-    Wally.prototype.race = function () {
-        return "jog";
-    };
-    return Wally;
-})();
-var Flash = (function (_super) {
-    __extends(Flash, _super);
-    function Flash() {
-        _super.apply(this, arguments);
-
+var t = require("./one/two/three/four/things")
+var Sweeper = (function () {
+    function Sweeper(broom) {
+        this.broom = broom;
     }
-    Flash.prototype.race = function () {
-        return "run";
+    Sweeper.prototype.doJob = function () {
+        this.broom.makeNoise();
     };
-    return Flash;
-})(Wally);
+    return Sweeper;
+})();
+var sweeper = new Sweeper(new t.stuff.Broom());
+sweeper.doJob();
 //@ sourceMappingURL=app.js.map

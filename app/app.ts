@@ -1,20 +1,13 @@
-/**
- *  inheritance
- *  static inheritance broken: http://typescript.codeplex.com/workitem/825
- */
+/// <reference path="one/two/three/four/things.ts"/>
+import t = module("one/two/three/four/things")
 
-interface Person{
-	race():void;
-}
+class Sweeper{
+	constructor(public broom:t.stuff.Broom){}
 
-class Wally implements Person{
-	race():string{
-		return "jog";
+	doJob(){
+		this.broom.makeNoise();
 	}
 }
 
-class Flash extends Wally{
-	race():string{
-		return "run";
-	}
-}
+var sweeper = new Sweeper(new t.stuff.Broom());
+sweeper.doJob();
