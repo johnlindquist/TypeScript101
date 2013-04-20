@@ -1,1 +1,1 @@
-{"version":3,"file":"app.js","sources":["app.ts"],"names":["doSomething"],"mappings":"AAIA,SAAS,WAAW,CAAC,CAAgB,EAAE,CAAC,EAAE,CAAC;IAC1CA,OAAOA,CAACA,CAACA,CAACA,EAAEA,CAACA,CAACA,CAACA;AAChBA,CAACA"}
+{"version":3,"file":"app.js","sources":["app.ts"],"names":["CarFactory","CarFactory.constructor","CarFactory.makeCar"],"mappings":"AAQA;IAAAA;AAOCA,IANAA,qBAAAA,SAAOA,OAAOA;QACbE,OAAOA;YACNA,KAAKA,EAAEA,KAAKA;YACZA,IAAIA,EAAEA,MAAMA;SACZA,CAAAA;IACFA,CAACA;IACFF;AAACA,CAAAA,IAAA"}

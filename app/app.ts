@@ -2,6 +2,18 @@
  *  functions
  */
 
-function doSomething(f:(a, b)=>number, a, b) {
-	return f(a, b);
+interface Car{
+	color:string;
 }
+
+class CarFactory{
+	static makeCar(){
+		return {
+			color: "red",
+			type: "fast"
+		}
+	}
+}
+
+//var car = <Car>CarFactory.makeCar();
+

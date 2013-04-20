@@ -3,8 +3,7 @@
 
 describe("func", ()=> {
 	it("should work", ()=> {
-		expect(doSomething((a, b)=> {
-			return a + b
-		}, 1, 2)).toBe(3);
+		var car = <Car>CarFactory.makeCar();
+		expect(car.color).toBe("red");
 	})
 });
